@@ -1,0 +1,10 @@
+name: GiftCode
+version: 1.0.0
+authors: [Color_yr]
+
+main: Color_yr.GiftCode.GiftCode
+
+commands:
+  cdk:
+    description: GiftCode的主要指令
+    usage: §4[GiftCode]§6/cdk help来查看帮助
