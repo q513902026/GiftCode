@@ -77,7 +77,7 @@ public class Commder implements CommandExecutor, TabExecutor {
                                 for (String b : Config.commder_list) {
                                     send_bukkit.message.clear();
                                     b = b.replace("%Player%", sender.getName());
-                                    Bukkit.dispatchCommand(send_bukkit.sender, b);
+                                    Bukkit.dispatchCommand(Bukkit.getConsoleSender(), b);
                                     if (send_bukkit.message.size() != 0) {
                                         for (String a : send_bukkit.message) {
                                             sender.sendMessage(a);
